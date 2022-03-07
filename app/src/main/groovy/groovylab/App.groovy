@@ -14,7 +14,7 @@ class App {
 	println "Task09.exec(date) == ${Task09.exec("date")}"
 	println "Task10.urlText(http:httpstat.us.200) == ${Task10.urlText("http://httpstat.us/200")}"
 	println "Task11.gstring(test, 2) == ${Task11.gstring("test", 2)}"
-	println "Calculator(6(3+1)) =="
+	println "Calculator(6(3+1)) == "
 	println "Calculator(1+9:3) =="
     }
 }
