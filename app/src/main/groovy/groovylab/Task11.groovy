@@ -11,6 +11,7 @@ class Task11 {
     private static final String GSTRING_TEMPLATE = "1() 2() 3()"
 
     public static String gstring(String text, int num) {
-        throw UnsupportedOperationException('Not Implemented!')
+        String template_str = "1() 2() 3()"
+        return template_str.replace("$num()","$num($text)")
     }
 }
